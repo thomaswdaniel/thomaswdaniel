@@ -2,7 +2,8 @@ import './App.css';
 import { Routes, Route} from "react-router-dom";
 import About from "./routes/About";
 import Home from "./routes/Home";
-import Navbar from './Navbar';
+import Navbar from './routes/Navbar';
+
 function App() {
   return (
     <>
@@ -14,4 +15,5 @@ function App() {
     </>
   );
 }
+
 export default App;
